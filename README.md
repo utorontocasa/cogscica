@@ -14,3 +14,6 @@ cd cogscica
 npm install
 node server.js
 ```
+
+  
+Then just browse [here](localhost:8080)  
