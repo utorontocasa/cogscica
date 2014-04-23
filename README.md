@@ -16,4 +16,4 @@ node server.js
 ```
 
   
-Then just browse [here](http://localhost:8080)  
+Then just browse <a href="http://localhost:8080">here</a>  
