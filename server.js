@@ -1,11 +1,13 @@
 var express = require('express'),
+    fs = require("fs"),
+    sys=require('sys'),
     marked = require('marked');
 var app = express();
 
 var sharepath = "/static";
 
 app.configure(function () {
-    app.use(express.favicon(__dirname+'/static/favicon.ico', {maxAge: 100 }));
+    app.use(express.favicon(__dirname+'/static/favicon.ico', {maxAge: 100 })); // not working?
     app.use(sharepath, express.static(__dirname + sharepath));
     app.use(sharepath, express.directory(__dirname + sharepath));
 
