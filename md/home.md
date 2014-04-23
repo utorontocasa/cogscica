@@ -8,9 +8,8 @@ pewpewpew
   + like so
   + you get the idea
 
-you also have the option of numbered lists, but it indexes automatically, so numbers don't matter.  
-1. This is number one
-1. This is number two
-4. This is number three
-
+1. numbered lists
+2. Also very easy
+3. Give it a try
+  
 Just leave a blank line after each list.  
