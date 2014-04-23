@@ -1,12 +1,25 @@
-var express = require('express')
-
+var express = require('express'),
+    marked = require('marked');
 var app = express();
 
+var sharepath = "/static";
+
 app.configure(function () {
-    app.all("*", //things that should happen for every possible url
+    app.use(express.favicon(__dirname+'/static/favicon.ico', {maxAge: 100 }));
+    app.use(sharepath, express.static(__dirname + sharepath));
+    app.use(sharepath, express.directory(__dirname + sharepath));
+
+    app.get("/", 
         function(req, res, next) {
-            res.writeHead(200,{ "Content-Type":"text/plain"})
-            res.end("hello world!");
+            res.writeHead(200,{ "Content-Type":"text/html"})
+            res.end(marked("# Hello World!  \n  \npewpewpew  "));
+        }
+    );
+
+    app.get("*",
+        function(req, res, next) {
+            res.writeHead(200,{ "Content-Type":"text/html"})
+            res.end(marked("# 404'd, bro"));
         }
     );
 });
