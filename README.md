@@ -1,11 +1,29 @@
 ## cogscica
   
-Code and content for cogsci.ca  
+Code and content for [cogsci.ca](http://cogsci.ca)  
   
 This assumes you're running linux and have already installed:
 * git
 * nodejs
 * npm
+
+If you don't, and are using Ubuntu, run this in your terminal:
+
+```bash
+# become the root user
+sudo su
+# you need this to build the rest
+apt-get install python-software-properties 
+# add a new repository
+apt-add-repository ppa:chris-lea/node.js
+# update your package manager
+apt-get update
+# install git and nodejs
+apt-get install git nodejs
+# install npm
+apt-get install npm
+exit
+```
 
   
 ```bash
