@@ -1,4 +1,4 @@
-## cogscica
+## CogScica
   
 Code and content for [cogsci.ca](http://cogsci.ca)  
   
@@ -23,6 +23,7 @@ apt-get install git nodejs
 # install npm
 apt-get install npm
 exit
+# drop root permissions
 ```
 
   
@@ -35,3 +36,8 @@ node server.js
 
   
 Then just browse <a href="http://localhost:8080">here</a>  
+  
+
+## Getting involved
+  
+Join our irc channel on freenode [##cognitivescience](irc://irc.freenode.net/##cognitivescience)  
