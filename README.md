@@ -40,4 +40,4 @@ Then just browse <a href="http://localhost:8080">here</a>
 
 ## Getting involved
   
-Join our irc channel on freenode [##cognitivescience](irc://irc.freenode.net/##cognitivescience)  
+Join our irc channel on freenode <a href="irc://irc.freenode.net:6667/channel?##cognitivescience">##cognitivescience</a>  
