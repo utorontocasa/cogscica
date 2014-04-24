@@ -40,4 +40,5 @@ Then just browse <a href="http://localhost:8080">here</a>
 
 ## Getting involved
   
-Join our irc channel on freenode <a href="irc://irc.freenode.net:6667/channel?##cognitivescience">##cognitivescience</a>  
+Join our irc channel on freenode, ##cognitivescience.  
+If you don't have a native irc client, use our [webchat](http://webchat.freenode.net/?channels=%23%23cognitivescience)  
