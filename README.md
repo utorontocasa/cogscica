@@ -12,25 +12,25 @@ If you don't, and are using Ubuntu, run this in your terminal:
     bash
   
 # become the root user
-    sudo su
+sudo su
   
 # you need this to build the rest
-    apt-get install python-software-properties
+apt-get install python-software-properties
   
 # add a new repository
-    apt-add-repository ppa:chris-lea/node.js
+apt-add-repository ppa:chris-lea/node.js
   
 # update your package manager
-    apt-get update
+apt-get update
   
 # install git and nodejs
-    apt-get install git nodejs
+apt-get install git nodejs
   
 # install npm
-    apt-get install npm
+apt-get install npm
   
 # drop root permissions
-    exit
+exit
 ```
   
 ```
