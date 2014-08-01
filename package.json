@@ -1,9 +1,9 @@
 {
-   "name": "cogscica",
-   "description": "Serverside code for cogsci.ca",
+   "name": "cogscica-e4",
+   "description": "Serverside code for cogsci.ca, updated to express 4, forked for experimentation",
    "version": "0.0.1",
    "author": "ansuz",
-   "contributors":"ansuz",
+   "contributors":"ansuz, kilohertz",
    "repository":
    {
        "type": "git",
@@ -11,7 +11,11 @@
    },
    "dependencies":
    {
-    "express": "3.1.0",
-    "marked":"0.3.2"
+    "express": "4.*",
+    "marked-engine": "*",
+    "marked": "*",
+    "serve-favicon": "*",
+    "body-parser": "*",
+    "morgan": "*"
    }
 }
