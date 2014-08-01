@@ -25,6 +25,10 @@ Briefly:
   + start each line with `*`, `+`, `-`, or `1.`
   + end with a blank line
   + can be nested (indent by 2 spaces)
+* tables:
+  + delineate cells in a row with `|`
+  + a line of `-` indicates the preceeding line as header
+  + add `:` to the right side of a row of  `-` to right-align that column's contents
 * blockquotes:
   + start each line with `>`
   + can be nested
