@@ -9,7 +9,7 @@ This assumes you're running linux and have already installed:
   
 If you don't, and are using Ubuntu, run this in your terminal:  
 ```
-    bash
+bash
   
 # become the root user
 sudo su
